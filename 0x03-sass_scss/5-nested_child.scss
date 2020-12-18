@@ -2,7 +2,7 @@
 body {
     color: #3D3D3D;
 
-    .red:nth-child(1) {
+    > .red {
 	color: #FF0000;
     }
 }
