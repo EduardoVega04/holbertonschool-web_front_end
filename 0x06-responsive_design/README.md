@@ -1,0 +1,1 @@
+<strong>Responsive design<strong>
