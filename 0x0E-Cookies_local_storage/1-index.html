@@ -19,8 +19,11 @@
 
             if(firstname != "" && email != "")
             {
-                document.cookie = `firstname=${firstname}`;           
-                document.cookie = `email=${email}`;
+                const date = new Date();
+                date.setDate(date.getDate() + 10);
+                const utcString = date.toUTCString();
+                document.cookie = `firstname=${firstname}; expires=${utcString}; path=/`;
+                document.cookie = `email=${email}; expires=${utcString}; path=/`;
             }
         }
 
