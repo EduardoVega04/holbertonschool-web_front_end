@@ -10,7 +10,7 @@
         let items = ["Shampoo", "Soap", "Sponge", "Water"];
 
         function addItemToCart(item) {
-            localStorage.setItem(item, "true");
+            sessionStorage.setItem(item, "true");
         }
 
         function createStore() {
@@ -31,7 +31,7 @@
         }
 
         function displayCart() {
-            const numItems = localStorage.length;
+            const numItems = sessionStorage.length;
 
             if(numItems != 0)
             {
@@ -51,7 +51,6 @@
         else
             alert("Sorry, your browser does not support Web storage. Try again with a better one");
 
-    </script>
-    
+    </script>    
 </body>
 </html>
