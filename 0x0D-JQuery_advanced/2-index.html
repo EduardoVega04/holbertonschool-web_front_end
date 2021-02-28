@@ -10,23 +10,28 @@
         </script>
         <script type="application/javascript">
             function createFamilyTree() {
-                const table = `<table>
-                <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                </tr>
-                <tr>
-                    <td>Paulette</td>
-                    <td>Salva</td>
-                </tr>
-                <tr>
-                    <td>Guillaume</td>
-                    <td>Salva</td>
-                </tr>
-                <tr>
-                    <td>Antoine</td>
-                    <td>Salva</td>
-                </tr>            
+                const table = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paulette</td>
+                            <td>Salva</td>
+                        </tr>
+                        <tr>
+                            <td>Guillaume</td>
+                            <td>Salva</td>
+                        </tr>
+                        <tr>
+                            <td>Antoine</td>
+                            <td>Salva</td>
+                        </tr> 
+                    </tbody>        
                 </table>`;
 
                 $("body").append(table);                
