@@ -10,21 +10,30 @@
         </script>
         <script type="application/javascript">
             function createFamilyTree() {
-                $("body").append(
-                    $("<table></table>").append(
-                        $("<tr></tr>").append(
-                            $("<th></th>").text("Firstname"), $("<th></th>").text("Lastname")), 
-                        $("<tr></tr>").append(
-                            $("<td></td>").text("Guillaume"), $("<td></td>").text("Salva")),
-                        $("<tr></tr>").append(
-                            $("<td></td>").text("Paulette"), $("<td></td>").text("Salva")),
-                        $("<tr></tr>").append(
-                            $("<td></td>").text("Antoine"), $("<td></td>").text("Salva"))
-                ));
+                const table = `<table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                </tr>
+                <tr>
+                    <td>Paulette</td>
+                    <td>Salva</td>
+                </tr>
+                <tr>
+                    <td>Guillaume</td>
+                    <td>Salva</td>
+                </tr>
+                <tr>
+                    <td>Antoine</td>
+                    <td>Salva</td>
+                </tr>            
+                </table>`;
+
+                $("body").append(table);                
             }
 
             $(document).ready(createFamilyTree);
-        </script>
+        </script>        
     </head>
     <body>
     </body>
