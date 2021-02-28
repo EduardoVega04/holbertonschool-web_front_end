@@ -1,0 +1,1 @@
+<strong>JQuery advanced<strong>
