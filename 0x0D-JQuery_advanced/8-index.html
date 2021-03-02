@@ -58,6 +58,9 @@
                 $("#pagination").empty();
                 const limit = numberOfItems / itemsPerPage;
 
+                if(numberOfItems < 10)
+                    return;
+
                 for(let i = 0; i < limit; i++)
                 {
                     let li = $(`<li>${i + 1}</li>`).css({cursor: 'pointer', "margin-left": "10px", "display": "inline-block"});
