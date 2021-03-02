@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "author": "Eduardo"
+    },
+    {
+      "title": "Post 2",
+      "author": "Andrés",
+      "id": 2
+    },
+    {
+      "title": "Post 3",
+      "author": "Felipe",
+      "id": 3
+    },
+    {
+      "title": "Post 4",
+      "author": "María",
+      "id": 4
+    },
+    {
+      "title": "Post 5",
+      "author": "Laura",
+      "id": 5
+    },
+    {
+      "title": "Post 6",
+      "author": "Betty",
+      "id": 6
+    },
+    {
+      "title": "Post 7",
+      "author": "Naruto",
+      "id": 7
+    },
+    {
+      "title": "Post 8",
+      "author": "Goku",
+      "id": 8
+    },
+    {
+      "title": "Post 9",
+      "author": "Gohan",
+      "id": 9
+    },
+    {
+      "title": "Post 10",
+      "author": "Ash",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
