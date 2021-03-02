@@ -58,7 +58,7 @@
                 $("#pagination").empty();
                 const limit = numberOfItems / itemsPerPage;
 
-                if(numberOfItems < 10)
+                if(numberOfItems <= 10)
                     return;
 
                 for(let i = 0; i < limit; i++)
