@@ -26,11 +26,6 @@
       "id": 5
     },
     {
-      "title": "Post 6",
-      "author": "Betty",
-      "id": 6
-    },
-    {
       "title": "Post 7",
       "author": "Naruto",
       "id": 7
@@ -49,21 +44,6 @@
       "title": "Post 10",
       "author": "Pikachu",
       "id": 10
-    },
-    {
-      "title": "Test",
-      "author": "Susana",
-      "id": 11
-    },
-    {
-      "title": "Hola",
-      "author": "Alguien",
-      "id": 12
-    },
-    {
-      "title": "Paga el ISA",
-      "author": "Holberton",
-      "id": 13
     }
   ],
   "comments": [
