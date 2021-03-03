@@ -42,13 +42,28 @@
     },
     {
       "title": "Post 9",
-      "author": "Gohan",
+      "author": "Vegeta",
       "id": 9
     },
     {
       "title": "Post 10",
-      "author": "Ash",
+      "author": "Pikachu",
       "id": 10
+    },
+    {
+      "title": "Test",
+      "author": "Susana",
+      "id": 11
+    },
+    {
+      "title": "Hola",
+      "author": "Alguien",
+      "id": 12
+    },
+    {
+      "title": "Paga el ISA",
+      "author": "Holberton",
+      "id": 13
     }
   ],
   "comments": [
